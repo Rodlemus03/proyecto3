@@ -756,7 +756,7 @@ fn render_shader_simplex(
 }
 
 fn handle_input(window: &Window, camera: &mut Camera) {
-    let movement_speed = 1.5;
+    let movement_speed = 5.0;
     let rotation_speed = PI / 50.0;
 
     let mut movement = Vec3::new(0.0, 0.0, 0.0);
