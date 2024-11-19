@@ -292,10 +292,10 @@ fn main() {
         Vec3::new(0.0, 1.0, 0.0),
     );
 
-    let esfera = Obj::load("assets/models/sphere.obj").expect("Failed to load sphere.obj");
+    let esfera = Obj::load("assets/modelos/sphere.obj").expect("Failed to load sphere.obj");
     let arrayEsfera = esfera.get_vertex_array();
 
-    let anillos = Obj::load("assets/models/anillos.obj").expect("Failed to load anillos.obj");
+    let anillos = Obj::load("assets/modelos/anillos.obj").expect("Failed to load anillos.obj");
     let arrayAnillos = anillos.get_vertex_array();
 
     let mut time = 0;
